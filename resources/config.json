@@ -1,0 +1,4 @@
+{
+  "ticksPerSecond": 20,
+  "enabledShops": ["systems", "skills"]
+}
