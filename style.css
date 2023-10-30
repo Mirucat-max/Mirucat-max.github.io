@@ -149,6 +149,7 @@ button:disabled {
 }
 
 .clicker-counter-label {
+  color: var(--tg-theme-text-color);
     font-size: .5em;
 }
 
