@@ -40,6 +40,7 @@ button:disabled {
   color: var(--tg-theme-secondary-bg-color);
 }
 
+
 /* A little circle in the upper corner of a button */
 .button-notification {
   animation: plop .2s;
