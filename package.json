@@ -1,0 +1,20 @@
+{
+  "name": "tichy-clicker",
+  "version": "2.4.0",
+  "description": "",
+  "main": "src/client/main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build-client": "browserify src/client/main.js -o client.js"
+  },
+  "author": "Paul Brinkmeier",
+  "license": "WTFPL",
+  "dependencies": {
+    "virtual-dom": "^2.1.1"
+  },
+  "devDependencies": {
+    "browserify": "^17.0.0",
+    "ycssmin": "^1.0.1",
+    "yuglify": "^2.0.0"
+  }
+}
