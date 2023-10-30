@@ -159,6 +159,7 @@ button:disabled {
 }
 
 .clicker-income {
+  color: var(--tg-theme-text-color);
   display: inline-block;
 }
 
