@@ -16,7 +16,7 @@ html {
 body {
   margin: 0;
   font-family: 'Comic Sans MS', sans-serif;
-  background-color: var(--tg-theme-bg-color);
+  background-color: red;
 }
 
 button {
@@ -225,11 +225,13 @@ button:disabled {
 
 /* main element on the shop pages */
 .shop {
+  background-color: var(--tg-theme-secondary-bg-color);
 }
 
 /* shop menu that can have some buttons and some info */
 .shop-menu {
   display: flex;
+  background-color: var(--tg-theme-bg-color);
 }
 
 /* a button in the shop menu */
@@ -238,17 +240,20 @@ button:disabled {
 
 /* a text field in the shop menu. these should fill most of the space */
 .shop-menu-info {
+  color: var(--tg-theme-text-color);
   flex: 1;
   text-align: right;
 }
 
 /* The shop's title */
 .shop-title {
+  color: var(--tg-theme-text-color);
   text-align: center;
 }
 
 /* A short (one line) description of the shop's items */
 .shop-description {
+  color: var(--tg-theme-hint-color);
   text-align: center;
 }
 
@@ -273,10 +278,12 @@ button:disabled {
 
 /* The name of the item */
 .shop-item-name {
+  color: var(--tg-theme-text-color);
 }
 
 /* A short (one line) description of an item */
 .shop-item-description {
+  color: var(--tg-theme-hint-color);
   font-size: .75em;
 }
 
@@ -289,6 +296,7 @@ button:disabled {
 
 /* The main element on text pages */
 .text {
+  color: var(--tg-theme-text-color);
 }
 
 /* The title element */
