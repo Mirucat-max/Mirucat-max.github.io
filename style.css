@@ -16,7 +16,7 @@ html {
 body {
   margin: 0;
   font-family: 'Comic Sans MS', sans-serif;
-  background-color: red;
+  background-color: var(--tg-theme-bg-color);
 }
 
 button {
@@ -308,7 +308,9 @@ button:disabled {
 .text-content {
   line-height: 1.5em;
 }
-
+p{
+  color: var(--tg-theme-text-color);
+}
 /* Responsive version for screens narrower than 720 pixels */
 @media (max-width: 720px) {
   .container {
